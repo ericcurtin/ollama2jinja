@@ -1,0 +1,5 @@
+{{- range .Messages }}
+{{- if eq .Role "user" }}
+User: {{ .Content }}
+{{- end }}
+{{- end }}

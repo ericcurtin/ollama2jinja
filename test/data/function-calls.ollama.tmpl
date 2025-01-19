@@ -1,0 +1,3 @@
+{{- range .Messages }}
+{{ .Role | upper }}: {{ .Content | title }}
+{{- end }}

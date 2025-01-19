@@ -1,0 +1,5 @@
+{% for message in messages %}
+{% if message.role == "user" %}
+User: {{ message.content }}
+{% endif %}
+{% endfor %}

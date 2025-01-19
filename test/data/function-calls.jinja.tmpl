@@ -1,0 +1,3 @@
+{% for message in messages %}
+{{ message.role | upper }}: {{ message.content | title }}
+{% endfor %}
